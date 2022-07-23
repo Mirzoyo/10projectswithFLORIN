@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500;1,600&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,500;1,100&family=Righteous&family=Roboto:wght@100;300;400;500;700;900&family=Tiro+Devanagari+Hindi:ital@0;1&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-container {
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  max-width: 100%;
+  outline: none;
+}
+
+.quiz-header {
+  padding: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+
+ul li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+button {
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  display: block;
+  border: none;
+  outline: none;
+  padding: 15px;
+
+  font-size: 1.3rem;
+}
+
+ul li label {
+  cursor: pointer;
+}
+#quiz h2 {
+  padding: 20px;
+}
+
+button:hover {
+  background-color: blue;
+}
